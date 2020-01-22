@@ -1,0 +1,66 @@
+---
+title: "blogdown"
+subtitle: "Create Blogs and Websites with R Markdown"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Who
+
+- Yihui Xie, RStudio
+- ~ 2 years old
+- Author of `knitr` 
+- Available from CRAN (version 0.17) and GitHub (development)
+
+---
+
+# What
+
+Build great looking websites directly within RStudio
+
+--
+
+Interfaces with [Hugo](https://gohugo.io/) a fast and flexible static site generator with LOADS of themes
+
+--
+
+Benefits of `blogdown`
+
+1. Produces a static website
+2. Generated from RMarkdown documents
+
+---
+
+# How
+
+We can build a new website using `new_site()` and choose any theme from [Hugo themes](https://themes.gohugo.io/)
+
+```{r build_site, eval = FALSE}
+library(blogdown)
+
+new_site(theme = "bjacquemet/personal-web")
+```
+
+--
+
+Creating new blog posts is easy
+
+```{r new_post, eval = FALSE}
+new_post("My first blog post")
+```
+
+---
+
+# And now...
+
+- [https://bookdown.org/yihui/blogdown](https://bookdown.org/yihui/blogdown)
+- [https://ab604.github.io/docs/website_bookdown/](https://ab604.github.io/docs/website_bookdown/)
+- [https://laurajanegraham.github.io/post/getting-started/](https://laurajanegraham.github.io/post/getting-started/)
+- [https://www.tylerclavelle.com/code/2017/blogdown/](https://www.tylerclavelle.com/code/2017/blogdown/)
+
+
