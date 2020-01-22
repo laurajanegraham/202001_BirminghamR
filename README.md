@@ -1,4 +1,4 @@
-# Creating websites with 'blogdown'
+# Creating websites with `blogdown`
 
 Slides from talk at Birmingham R meetup, 21.01.2020. 
 
